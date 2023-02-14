@@ -1,0 +1,5 @@
+#Fichero de configuración.
+#Thu Jun 09 14:27:20 CEST 2022
+url=jdbc:mysql://localhost:3307/decoracion_hogar?useServerPrepStmts=true
+user=admin
+pass=admin

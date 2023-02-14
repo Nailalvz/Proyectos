@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">iGarden</string>
+    <string name="portada">portada</string>
+    <string name="glicina">Glicina</string>
+    <string name="hiedra">Hiedra</string>
+    <string name="jazmin">Jazmín</string>
+    <string name="lavanda">Lavanda</string>
+    <string name="limonero">Limonero</string>
+    <string name="lirios">Lirios</string>
+    <string name="menta">Menta</string>
+    <string name="peonias">Peonias</string>
+    <string name="romero">Romero</string>
+    <string name="tomillo">Tomillo</string>
+    <string name="tulipanes">Tulipanes</string>
+    <string name="jacinto">Jacinto de agua</string>
+    <string name="add">Añadir</string>
+    <string name="info">info</string>
+    <string name="mijardin">Mi jardín</string>
+    <string name="back">back</string>
+    <string name="tipo_planta">Planta</string>
+    <string name="riego">Riego</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="seleccionar">Seleccionar imagen</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="sol">Sol</string>
+    <string name="sombra">Sombra</string>
+    <string name="necesita">Necesita:</string>
+    <string name="imagen">Imagen</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="salir">Salir</string>
+    <string name="planta">planta</string>
+    <string name="regadera">regadera</string>
+    <string name="dialog">Para borrar mantena pulsada la carta donde se muestra la planta</string>
+
+
+
+    <!-- Texto Glicina 14 text -->
+    <string name="floracion_glicina">Floración: finales de invierno - principios de verano </string>
+    <string name="riego_glicina">Riego: Regular</string>
+    <string name="titulo_caract_glicina">Características</string>
+    <string name="c_p_1_glicina">Las wisterias o glicinas son plantas trepadoras muy vigorosas y longevas que con el paso de los años llegan a desarrollar una wisteria. Debemos tener en cuenta su gran vigor y volumen final para evitar problemas de escala en un futuro. Cada primavera desarrollan unas maravillosas flores en tonos blancos, azules y rosas violáceos antes de que crezcan las hojas. La variedad rosa se caracteriza por tener un mata bastante enredada con muchos tallos finos y muy vigorosos. La variedad azul, sin embargo, es mucho más compacta.</string>
+    <!--
+    <string name="c_p_4_glicina"></string>
+    -->
+    <string name="titulo_cultivo_glicina">Cultivo</string>
+    <string name="cul_p_1_glicina">Si la cultivamos en un contenedor, enseguida explorará y ocupará todo el volumen de tierra. Esto derivará en un crecimiento raquítico y en una floración insignificante, por lo que no es aconsejable. El espectacular aroma que emanan de sus ramilletes de flores conquistará a más de uno, aunque será más o menos intenso dependiendo de la variedad. Sus frutos son unas vainas aterciopeladas muy vistosas.</string>
+    <string name="cul_p_2_glicina">Uno de los requisitos de la wisteria es que se plante en un suelo profundo, ya que cuenta con unas raíces ramificadas y muy agresivas debido a su vigorosidad de crecimiento.Este arbusto trepador prefiere los suelos ácidos, aunque se puede cultivar en cualquier suelo teniendo precaución con los suelos demasiado húmedos o muy cálcareos (que provocan clorosis férrica).</string>
+
+    <string name="titulo_plagas_glicina">Plagas y enfermedades</string>
+    <string name="cp_p_1_glicina">Las enfermedades más comunes son las manchas en la hoja debido a hongos, el oidio, la roya o virosis.</string>
+    <string name="cp_p_2_glicina">Las plagas más comunes que afectan a la wisteria o glicina son los pulgones, las cochinillas o la abeja cortadora de hoja.</string>
+
+    <!-- Texto Hiedra -->
+    <string name="ubicacion_hiedra">Ubicación: interior y exterior</string>
+    <string name="riego_hiedra">Riego: Moderado</string>
+    <string name="titulos_descrip_hiedra">Descripción</string>
+    <string name="d_1_hiedra">En origen, la hiedra es una planta de sotobosque que primero tiene un porte rastrero hasta que se encuentra con un soporte como el tronco de un árbol, al cual se adhiere gracias a unas raicillas aéreas, trepando en busca de luz para proceder a la floración. Como planta de interior, destacamos la elegancia de su porte colgante y los matices y dibujos en verde y color crema de las distintas variedades. La variedad Golden Marco, por ejemplo, posee las hojas pequeñas matizadas en verde y amarillo.</string>
+
+    <string name="titulo_cuidados_hiedra">Cuidados</string>
+    <string name="c_1_hiedra">Las hiedras toleran exposiciones no excesivamente luminosas aunque su desarrollo óptimo lo tienen en condiciones de luz abundante, sin sol directo. Le gustan las temperaturas frescas.</string>
+    <string name="c_2_hiedra">La tierra debe mantenerse húmeda pero sin abusar de los encharcamientos ya que suelen producir amarilleamiento y caída de las hojas. Para potenciar el brillo propio de las hojas es aconsejable rociarlas regularmente con agua tibia.</string>
+    <string name="titulo_plagas_hiedra">Plagas y enfermedades</string>
+    <string name="cp_p_1_hiedra">Las enfermedades más cómunes son bacterias, antracnosis y negrilla.</string>
+    <string name="cp_p_2_hiedra">Las plagas más comunes que afectan a la hiedra son los pulgones, la araña roja, las cochinillas o los trips.</string>
+
+    <!-- Texto Jazmín -->
+
+    <string name="ubicacion_jazmin">Lugar de cultivo: interior y exterior</string>
+    <string name="riego_jazmin">Riego: Moderado</string>
+    <string name="titulos_descrip_jazmin">Características</string>
+    <string name="d_1_jazmin"> Inconfundible por su intenso aroma, especial por su silueta de planta trepadora y muy llamativo debido a su frondosidad, el Jazmín es una especial planta que podrás colocar tanto en tu jardín como en el interior de tu hogar. Con alrededor de 200 tipos de Jazmín diferentes, todos ellos tienen una característica común, el color de sus flores con cinco pétalos solo puede ser blanco, amarillo o rojizo. Sea cual sea la variedad de Jazmín que escojas su fragancia intensa a la par que dulce conquistará tus sentidos y sus bayas en color negro te encantarán.</string>
+
+    <string name="titulo_cuidados_jazmin">Cuidados</string>
+    <string name="c_1_jazmin">Ideales tanto para interior como para exterior, los Jazmines son un tipo de planta que no requiere de complejos cuidados, pero sí que es cierto que si quieres que tu Jazmín luzca espléndido, deberás prestar atención a algunos aspectos.</string>
+    <string name="c_2_jazmin">Se adapta a todo tipo de terrenos, siempre y cuando estén húmedos y bien drenados. El Jazmín necesita luz solar en abundancia, por lo que deberás colocarlo a pleno sol o en un lugar en semisombra. Respecto al riego, es un aspecto que no puedes descuidar, especialmente en los meses del año más calurosos, ya que los Jazmines necesitan que los rieguen de manera abundante.</string>
+    <string name="titulo_plagas_jazmin">Plagas y enfermedades</string>
+    <string name="cp_p_1_jazmin">Entre las enfermedades comunes de la jazmín blanco están el mildiú, la enfermedad del tizón y la fusariosis.</string>
+    <string name="cp_p_2_jazmin">Se trata de enfermedades que principalmente afectan al tallo y a las hojas en vez de a las raíces, y pueden ser tratadas con un fungicida o con bicarbonato de soda disuelto en agua.</string>
+
+    <!-- Texto Lavanda -->
+
+    <string name="ubicacion_lavanda">Floración: julio</string>
+    <string name="riego_lavanda">Riego: Moderado</string>
+    <string name="titulos_descrip_lavanda">Características</string>
+    <string name="d_1_lavanda">La planta de lavanda es una de las hierbas aromáticas más populares, tanto por su belleza como por su color y perfume. Puedes cultivarla en tiestos y se riega una vez por semana en las zonas de clima cálido y si recibe el sol 6 horas al día. Pero también es una de las plantas resistentes al frío, así que no dudes en poner lavanda en tu jardín, una de las plantas de exterior que resistirá al invierno. Ten en cuenta que debe recibir al menos 6 horas diarias de sol.</string>
+
+    <string name="titulo_cuidados_lavanda">Cuidados</string>
+    <string name="c_1_lavanda">Necesita una buena ventilación. Si decides plantarla en el suelo, evita hacerlo cerca de otras plantas, y si lo haces en maceteros grandes y bonitos, procura que tenga un diámetro de entre 30 y 40 cm.</string>
+    <string name="c_2_lavanda">Para que crezca bien, utiliza un sustrato alcalino y si el suelo es ácido, compensa con la acidez con un sustrato específico. Necesita tener un buen drenaje. En los meses de calor, riega 1 ó 2 veces por semana, sin mojar las ramas y las flores.</string>
+    <string name="titulo_plagas_lavanda">Plagas y enfermedades</string>
+    <string name="cp_p_1_lavanda">Las plagas más cómunes de la lavanda son conchinilla algodonosa, larvas de cecidómidos, escarabajo melighetes, orugas de la lavanda o pulgones.</string>
+    <string name="cp_p_2_lavanda"> Una vez que conocemos las plagas de la lavanda vamos a ver cuáles son las enfermedades más comunes. Entre ellas, destacan: las podredumbres y las enfermedades víricas.</string>
+
+    <!-- Texto Limonero -->
+
+    <string name="ubicacion_limonero">Ubicación: protegido del frío y con luz solar directa</string>
+    <string name="riego_limonero">Riego: frecuente</string>
+    <string name="titulos_descrip_limonero">Características</string>
+    <string name="d_1_limonero">El limonero, o Citrus x limon, que es su nombre científico, es un árbol de hoja perenne que llega a alcanzar unas alturas promedio de en torno a los 6 metros. Son frutales que llegan a vivir unos 60 o 70 años, con lo que una vez empiece a dar frutos, tu limonero te acompañará prácticamente durante toda tu vida.</string>
+
+    <string name="titulo_cuidados_limonero">Cuidados</string>
+    <string name="c_1_limonero">Empezamos a explicarte cómo cuidar un limonero hablando sobre el clima, pues es probablemente uno de los puntos más importantes. Se trata del cítrico menos tolerante al frío de todos, por lo que necesita de un clima en el que las heladas no sean comunes ni prolongadas. Una exposición por debajo de los -3 ºC de forma no puntual causará graves daños en la mayoría de árboles. Su temperatura ideal es de entre 17 ºC y 28 ºC.</string>
+    <string name="c_2_limonero">En invierno, ante climas fríos, uno de los puntos más importantes del mantenimiento de un limonero consiste en cubrir el árbol con plástico de invernadero o algún otro material transpirable que deje pasar la luz solar o, incluso, moverlo a una ubicación de interior.</string>
+    <string name="titulo_plagas_limonero">Plagas y enfermedades</string>
+    <string name="cp_p_1_limonero">Las principales plagas del limonero son minador del limonero, pulgones, conchinilla algodonosa y araña roja.</string>
+    <string name="cp_p_2_limonero">Las enfermedades más comunes son alternaria alternata, exocortis, virus de la tristeza, penicillium o psoriasis.</string>
+
+    <!-- Texto Lirios -->
+
+    <string name="ubicacion_lirios">Floración: primavera</string>
+    <string name="riego_lirios">Riego: 3 a 4 veces por semana</string>
+    <string name="titulos_descrip_lirios">Características</string>
+    <string name="d_1_lirios">Con el lirio pasa como en muchas otras plantas. Pertenece a grupos tan extensos que puedes tener 2 géneros a la vez. Como tal, el lirio pertenece al género Iris (Iridáceas), a la que pertenece una de las especies más famosas (lirio ornamental y lirio común). Por otra parte, también existen lirios europeos que pertenecen al género Lillium.</string>
+
+    <string name="titulo_cuidados_lirios">Cuidados</string>
+    <string name="c_1_lirios">Anticipamos que la mayoría de especies de lirios son fáciles de cuidar y multiplicar. Tienen una gran capacidad para cubrir amplias zonas del jardín y pueden crear un manto tupido de flores en primavera y verano. En cuanto a la exposición solar, el lirio prefiere estar plantado en zonas bañadas por el sol, sin embargo, también puede sobrevivir en lugares de semisombra. Intenta no cultivarlo a la sombra, pues de esta manera no florecerá.</string>
+    <string name="c_2_lirios">Los lirios se pueden colocar en macetas o directamente en la tierra del jardín. Dependiendo de dónde hayas decidido plantarlos, el tipo de suelo será diferente. Para el jardín, usa suelos fértiles con abundante materia orgánica y que drene bien el agua. Para la maceta, con un sustrato de cultivo universal mezclado con perlita será más que suficiente.</string>
+    <string name="titulo_plagas_lirios">Plagas y enfermedades</string>
+    <string name="cp_p_1_lirios">Las principales plagas de los lirios son botrytis cinera, pulgones, caracoles y babosas.</string>
+    <string name="cp_p_2_lirios">Las enfermedades más comunes son roya y septoriosis.</string>
+
+    <!-- Texto Menta -->
+
+    <string name="ubicacion_menta">Lugar de cultivo: exterior con sol o combra parcial</string>
+    <string name="riego_menta">Riego: Abundante, una vez cada 2 días</string>
+    <string name="titulos_descrip_menta">Características</string>
+    <string name="d_1_menta">La menta es imprescindible en los hogares. Bien sea para aderezar nuestras recetas, hacer infusiones o darle un toque fresco al chocolate, la menta debería estar en los balcones de cada casa. Las formas de sus hojas son tan atractivas y variadas como sus sabores; planta una buena variedad en macetas individuales y evitarás que invada todo el espacio del suelo.</string>
+
+    <string name="titulo_cuidados_menta">Cuidados</string>
+    <string name="c_1_menta">Si quieres cultivar distintos tipos de menta, no las plantes juntas porque pierden su aroma y sabor propios. El cultivo de la menta es fácil. Tenla en un rincón soleado o con sombra parcial y riégala bien, máxime cuando el clima es seco y caluroso. Quita algunas hojas de vez en cuando para estimular el crecimiento de nuevos brotes. Cuando las plantas hayan dejado de florecer, en verano, corta los tallos que han florecido a una altura de 5cm de la superficie del compuesto.</string>
+    <string name="c_2_menta">Cuando las macetas estén muy congestionadas deberás rejuvenecer la planta: pon la maceta en vertical y extrae las raíces de la planta. Córtalas por la mitad, separa bien las terminaciones y planta de nuevo con compuesto nuevo. La menta es fácil de reproducir por esquejes. Pon los tallos de unos 10 cm en macetitas de compuesto húmedo o deja en agua hasta que echen raíces.</string>
+    <string name="titulo_plagas_menta">Plagas y enfermedades</string>
+    <string name="cp_p_1_menta">Las principales plagas sin los pulgones, los trips y los ácaros de la araña.</string>
+    <string name="cp_p_2_menta">Las enfermedades que pueden afectar a la menta son verticilium y una enfermedad fúngica causada por Puccinia menthae.</string>
+
+    <!-- Texto Peonias -->
+
+    <string name="ubicacion_peonias">Floración: mayo y junio</string>
+    <string name="riego_peonias">Riego: 2 veces por semana</string>
+    <string name="titulos_descrip_peonias">Características</string>
+    <string name="d_1_peonias">Se trata de un arbusto que cuenta con hojas verdes, las cuales brotan tanto en forma entera como dividida; sus flores suelen ser no solo de forma simple, sino también dobles y tener forma de rosa. Las mismas pueden encontrarse en diversos colores, aunque las blancas y las rosas suelen destacar por ser las más conocidas. Sus flores se caracterizan por ser muy aromáticas y aunque el desarrollo de la planta suele ser lento, una vez que comienza su floración después del invierno, las peonías empiezan a embellecer cualquier tipo de paisaje.</string>
+
+    <string name="titulo_cuidados_peonias">Cuidados</string>
+    <string name="c_1_peonias">En realidad las Peonías Efímeras se caracterizan por ser muy fuertes, de modo que su cuidado resulta casi mínimo y es bastante sencillo, y es que estas plantas son capaces de soportar perfectamente los fuertes inviernos. Además, una vez que se encuentran dentro de un jardín, tendrán la capacidad de continuar floreciendo durante la primavera a lo largo de varios años.</string>
+    <string name="c_2_peonias">Las Peonias precisan de semi-sombra, razón por la cual resulta fundamental cerciorarse de que el lugar en el que se encuentran les permita estar protegidas frente a los rayos solares a los que podrían estar expuestas al mediodía. Esta es capaz de aguantar la temperatura de forma moderada, de manera que es posible cultivarla tanto en las regiones nórdicas, como en zonas que sean difíciles. Sin embargo y  al hablar sobre preferencias, hay que mencionar que a las Peonias les agrada en mayor medida el clima templado.</string>
+    <string name="titulo_plagas_peonias">Plagas y enfermedades</string>
+    <string name="cp_p_1_peonias">Dentro de los hongos que atacan con mayor frecuencia a las Peonías Efímeras está el Botrytis, aunque es igualmente posible que sean atacadas por cochinillas, en cuyo caso lo más adecuado para combatir esta plaga será limpiar la planta tan pronto como sea posible, usando un algodón previamente humedecido con alcohol.</string>
+    <string name="cp_p_2_peonias">Una de las enfermedades más habituales de la peonía es el llamado moho gris. Una dolencia que aparece en la planta cuando lo recibe el sol que necesita, y sus hojas se mojan de manera regular. También ligada con el exceso de humedad ambiental, la botritis puede aparecer en nuestra planta.</string>
+
+    <!-- Texto Romero -->
+
+    <string name="ubicacion_romero">Ubicación: exterior</string>
+    <string name="riego_romero">Riego: Moderado</string>
+    <string name="titulos_descrip_romero">Características</string>
+    <string name="d_1_romero">Ideal para animar el patio o la terraza durante todo el año, el romero es una mata perenne con hojas ahusadas que desprenden su aroma cada vez que lo rozamos. La planta es perfecta para jardineros atareados ya que requiere muy pocos cuidados, aparte de regarla y abonarla en primavera con un fertilizante granulado de liberación lenta. El romero produce unas bellas flores azules en primavera y verano; corta los tallos cuando se empiezan a marchitar las flores para mantenerla compacta.</string>
+
+    <string name="titulo_cuidados_romero">Cuidados</string>
+    <string name="c_1_romero">Luz adecuada para el romero: es necesario que reciba luz natural directa, pues es una planta que necesita bastante sol y luz. No obstante, hay que procurar que en épocas de sol fuerte no se quede la planta todas las horas de calor en pleno sol directo, porque será fácil que sus hojas se quemen. Por ello, en épocas de mucho calor y sol fuerte lo mejor es buscarle un sitio con sol y sombra y en épocas templadas o frías buscarle el lugar con más luz natural posible.</string>
+    <string name="c_2_romero">Temperatura óptima para la planta de romero: esta planta puede adaptarse a temperaturas frías y a las calurosas pero, realmente, la temperatura adecuada para el romero es la que hay en climas templados y cálidos. Así, no aguantará bien granizadas, heladas y bajadas de temperatura bruscas, pero tampoco zonas donde el sol calienta en exceso.</string>
+    <string name="titulo_plagas_romero">Plagas y enfermedades</string>
+    <string name="cp_p_1_romero">Las plagas más comunes son la cochinilla y araña roja.</string>
+    <string name="cp_p_2_romero">Las principales enfermedades del romero son raíces podridas y alternaria spp.</string>
+
+    <!-- Texto Tomillo -->
+
+    <string name="ubicacion_tomillo">Ubicación: exterior</string>
+    <string name="riego_tomillo">Riego: cada 10 días</string>
+    <string name="titulos_descrip_tomillo">Características</string>
+    <string name="d_1_tomillo">La planta del tomillo se caracteriza por poseer matas leñosas de entre 15 y 30 cm de altura, alcanzando el medio metro en zonas protegidas. Sus tallos de sección cuadrada están repletos de pequeñas hojas de entre 4 y 5 mm en forma de racimos y con tonalidades verdes, recubiertas de aceite esencial presentan un aspecto velloso que le confiere un peculiar tacto. Su floración en la Región de Murcia se produce entre los meses de marzo a mayo, dependiendo de la altitud, momento en que ofrece su porte más atractivo con pequeñas flores de color blanco, rosa o violeta.</string>
+
+    <string name="titulo_cuidados_tomillo">Cuidados</string>
+    <string name="c_1_tomillo">Necesita mucho sol y crece bien en todo tipo de suelos. Además, es bastante resistente a la sequía. Sobre el abonado, es conveniente no abonar con fertilizantes ricos en minerales o en nitrógeno porque disminuye su resistencia a las heladas.</string>
+    <string name="c_2_tomillo">El tomillo se cultiva en suelos secos y alcalinos a pleno sol. Cultiva las semillas en bandejas en un invernadero o en un semillero de cama fría en primavera, planta en recipientesde 7,5 cm cuando su tamaño permita manipularlos, y transplántelas al exterior cuando arraiguen. Coge esquejes de tallos tiernos en verano, cuando florece.</string>
+    <string name="titulo_plagas_tomillo">Plagas y enfermedades</string>
+    <string name="cp_p_1_tomillo">Las plagas más comunes son ácaros, conchinillas de harina y moscas blancas.</string>
+    <string name="cp_p_2_tomillo">Las principales enfermedades son Alternaria solani, hongo gris y marchitamiento fúngico.</string>
+
+    <!-- Texto Tulipanes -->
+
+    <string name="ubicacion_tulipanes">Floración: primavera</string>
+    <string name="riego_tulipanes">Riego: Moderado</string>
+    <string name="titulos_descrip_tulipanes">Características</string>
+    <string name="d_1_tulipanes">Los tulipanes son plantas bulbosas perennes, de la familia de las Liliaceae, y que albergan unas 150 especies. Aunque se los suele relacionar con Holanda por su destacada producción, son originarios de Asia Central, el nombre «tulipán» proviene de la palabra turca «dulban», que significa turbante, haciendo referencia a la similitud entre sus formas. El tulipán es una planta que en el jardín sirve para ornamentar casi cualquier espacio vacío, contorno de un arbusto, canteros individuales, macetas, etc. También es muy interesante el largo del tallo que se logra, permitiendo su uso como flor de corte.</string>
+
+    <string name="titulo_cuidados_tulipanes">Cuidados</string>
+    <string name="c_1_tulipanes">l cultivo de tulipanes es sencillo, sus bulbos contienen nutrientes suficientes, por lo que necesitan pocos cuidados además del riego. Los tulipanes florecen en primavera, por lo tanto deben sembrarse a fines del otoño. En el hemisferio sur, pueden plantarse desde principios de abril a fines de junio. Lo mejor es comprar bulbos producidos en Argentina (o en su país de residencia). Los bulbos importados traídos por ejemplo desde Holanda o el hemisferio norte, raramente florecen porque están en contra estación. No hay que exponer los bulbos al sol y guárdelos en lugar fresco (puede ser la heladera, no el freezer) hasta el momento de su plantación.</string>
+    <string name="c_2_tulipanes">Se cultiva en todo tipo de suelos pero los prefiere sueltos, ligeros y también se adapta a los que son arenosos. Lo importante es que pueda retener la humedad pero que no se encharquen porque esto ocasiona la podredumbre de los bulbos. Prefieren lugares con poca luz directa; sombra o media sombra en el jardín o en los balcones.</string>
+    <string name="titulo_plagas_tulipanes">Plagas y enfermedades</string>
+    <string name="cp_p_1_tulipanes">Las plagas más comunes en los tulipanes son los nematopodos, lampetia equestris, pulgones, caracoles y babosas.</string>
+    <string name="cp_p_2_tulipanes">Las enfermedades princpales son brotrytis tulipae y enfermedad de augusta.</string>
+
+    <!-- Texto Jacinto de agua -->
+
+    <string name="ubicacion_jacinto">Floración: de marzo a junio</string>
+    <string name="riego_jacinto">Ubicación: pleno sol o sombra parcial. Agua estancada o con poca corriente.</string>
+    <string name="titulos_descrip_jacinto">Características</string>
+    <string name="d_1_jacinto">El jacinto de agua, también conocido científicamente como Eichhornia crassipes, es una planta acuática de la familia de las Pontederiaceaes y que tuvo su origen en los estanques de diferentes zonas de América del Sur. Este vegetal que también se conoce popularmente como camalote, se caracteriza por no tener prácticamente un tallo y por sus largas raíces negras. Además, durante las épocas de calor, el jacinto de agua expone una especie de espigas de un tono morado, muy parecido a los jacintos que se cultivan en tierra.</string>
+
+    <string name="titulo_cuidados_jacinto">Cuidados</string>
+    <string name="c_1_jacinto">Temperatura: este tipo de plantas deben tener una temperatura que esté entre los 15ºC y los 30ºC. Durante las épocas de frío, es importante protegerlas de las heladas ya que no soportan las bajas temperaturas y, de hecho, podrían morir. Agua: en el caso de que vayas a plantar un jacinto en un estanque o piscina natural es necesario que el lugar contenga aguas calmadas o con poca corriente. También puedes plantar esta flor en un jarrón para bulbos.</string>
+    <string name="c_2_jacinto">Iluminación: los jacintos acuáticos deben ubicarse bajo pleno sol, ya que necesitan mucha iluminación para florecer. Al ser una de las plantas más invasoras en el mundo es imprescindible cultivar muy pocas, ya que se multiplican con demasiada rapidez hasta cubrir toda la superficie, pudiendo matar otras plantas u organismos del ecosistema.</string>
+    <string name="titulo_plagas_jacinto">Plagas y enfermedades</string>
+    <string name="cp_p_1_jacinto">El jacinto de agua es vulnerable a ataques de weeveils (Neochetina eichhorniae), polillas pyralid (Niphograpta albiguttalis) y ácaros (Orthogalumna terebrantis).</string>
+    <string name="cp_p_2_jacinto">Las plantas de jacintos de agua son susceptibles a varias enfermedades de mancha foliar, principalmente las causadas por el Myrothecium roridum y los patógenos de Cercospora piaropi.</string>
+
+
+    <!-- Arrays-->
+
+    <!-- plantas -->
+
+    <string-array name="plantas">
+        <item>Azalea</item>
+        <item>Buganvilla</item>
+        <item>Caléndula</item>
+        <item>Clavel</item>
+        <item>Crisantemo</item>
+        <item>Dalia</item>
+        <item>Diente de león</item>
+        <item>Flor de loto</item>
+        <item>Gardenia</item>
+        <item>Geranio</item>
+        <item>Lirio</item>
+        <item>MArgarita</item>
+    </string-array>
+
+    <!-- riego -->
+
+    <string-array name="riego_fre">
+        <item>Moderado</item>
+        <item>Regular</item>
+        <item>1 por semana</item>
+        <item>2 por semana</item>
+        <item>3 por semana</item>
+        <item>4 por semana</item>
+    </string-array>
+
+    <!-- Tipo -->
+
+    <string-array name="ubicacion">
+        <item>Interior</item>
+        <item>Exterior</item>
+        <item>Interio/exterior</item>
+    </string-array>
+</resources>

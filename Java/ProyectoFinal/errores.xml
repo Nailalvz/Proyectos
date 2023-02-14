@@ -1,0 +1,87 @@
+<errores>
+
+<error>Table 'decoracion_hogar.coleccion_articulos' doesn't exist</error>
+
+<error>Table 'decoracion_hogar.coleccion_articulos' doesn't exist</error>
+
+
+<error codigo ="1146">Table 'decoracion_hogar.coleccion_articulo' doesn't exist</error>
+
+<error codigo ="1146">Table 'decoracion_hogar.coleccion_articulo' doesn't exist</error>
+
+<error codigo ="1146">Table 'decoracion_hogar.coleccion_articulo' doesn't exist</error>
+
+<error codigo ="1265">Data truncated for column 'Estancia' at row 1</error>
+
+<error codigo ="1062">Duplicate entry '29' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '29' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1452">Cannot add or update a child row: a foreign key constraint fails (`decoracion_hogar`.`articulo_decoracion`, CONSTRAINT `articulo_decoracion_ibfk_2` FOREIGN KEY (`coleccion`) REFERENCES `coleccion` (`nombre`) ON UPDATE CASCADE)</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '50' for key 'articulo.PRIMARY'</error>
+
+<error codigo ="1062">Duplicate entry '51' for key 'articulo.PRIMARY'</error>
+
+<error codigo = "Error sin código">For input string: "gf"</error>
+
+<error codigo = "Error sin código">For input string: "e"</error>
+
+<error codigo = "Error sin código">For input string: "d"</error>
+
+<error codigo = "Error sin código">For input string: "a"</error>
+
+<error codigo = "Error sin código">For input string: "g"</error>
+
+<error codigo = "Error sin código">For input string: "l"</error>
+
+<error codigo = "Error sin código">For input string: "a"</error>
+
+<error codigo = "Error sin código">No line found</error>
+
+<error codigo = "Error sin código">No line found</error>
+
+<error codigo = "Error sin código">No line found</error>
+
+<error codigo = "Error sin código">No line found</error>
+
+<error codigo = "Error sin código">No line found</error>
+
+<error codigo = "Error sin código">No line found</error>
+
+<error codigo = "Error sin código">No line found</error>
+
+<error codigo = "Error sin código">No line found</error>
+</errores>

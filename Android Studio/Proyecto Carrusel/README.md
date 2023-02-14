@@ -1,0 +1,1 @@
+Proyecto realizado en Android Studio con lenguaje Java. Implementa la librería https://github.com/ImaginativeShohag/Why-Not-Image-Carousel. 

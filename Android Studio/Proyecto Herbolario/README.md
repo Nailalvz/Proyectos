@@ -1,0 +1,1 @@
+Proyecto realizado en Android Studio para la asignatura de interfaces gráficas (sin funcionalidad).

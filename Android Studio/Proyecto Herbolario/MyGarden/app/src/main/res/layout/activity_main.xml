@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FEFFF7">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10sp">
+
+           <com.google.android.material.floatingactionbutton.FloatingActionButton
+               android:id="@+id/info"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentBottom="true"
+               android:contentDescription="@string/info"
+               android:src="@drawable/help"
+               app:fabSize="mini"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toStartOf="@+id/titulo"
+               app:layout_constraintHorizontal_bias="0.08"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintVertical_bias="0.0"
+               tools:ignore="ImageContrastCheck" />
+
+           <TextView
+               android:id="@+id/titulo"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentBottom="true"
+               android:layout_marginStart="4dp"
+               android:fontFamily="@font/adamina"
+               android:gravity="center"
+               android:text="@string/mijardin"
+               android:textColor="#689F38"
+               android:textSize="30sp"
+               android:textStyle="bold"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintVertical_bias="0.571"
+               tools:ignore="TextContrastCheck" />
+
+           <com.google.android.material.floatingactionbutton.FloatingActionButton
+               android:id="@+id/add"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentBottom="true"
+               android:layout_toStartOf="@+id/titulo"
+               android:contentDescription="@string/add"
+               android:minWidth="48dp"
+               android:src="@drawable/outline_add_circle_black_24dp"
+               app:fabSize="mini"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.921"
+               app:layout_constraintStart_toEndOf="@+id/titulo"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintVertical_bias="0.0"
+               tools:ignore="ImageContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:columnCount="2"
+           android:rowCount="1"
+           android:columnOrderPreserved="false"
+           android:alignmentMode="alignMargins">
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen1"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/glicina"
+                       android:src="@drawable/glicina" />
+                   
+                   <TextView
+                       android:id="@+id/texto_1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/glicina"
+                       android:fontFamily="@font/adamina"
+                       android:layout_marginTop="5dp"
+                       android:gravity="center"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card2"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen2"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/hiedra"
+                       android:src="@drawable/hiedra" />
+
+                   <TextView
+                       android:id="@+id/texto_2"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/hiedra"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card3"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen3"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/jazmin"
+                       android:src="@drawable/jazmin" />
+
+                   <TextView
+                       android:id="@+id/texto_3"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/jazmin"
+                       android:fontFamily="@font/adamina"
+                       android:layout_marginTop="5dp"
+                       android:gravity="center"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card4"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen4"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/lavanda"
+                       android:src="@drawable/lavanda" />
+
+                   <TextView
+                       android:id="@+id/texto_4"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/lavanda"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card5"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen5"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/jacinto"
+                       android:src="@drawable/jacinto" />
+
+                   <TextView
+                       android:id="@+id/texto_5"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/jacinto"
+                       android:gravity="center"
+                       android:fontFamily="@font/adamina"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card6"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen6"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/limonero"
+                       android:src="@drawable/limonero" />
+
+                   <TextView
+                       android:id="@+id/texto_6"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/limonero"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card7"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen7"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/lirios"
+                       android:src="@drawable/lirios" />
+
+                   <TextView
+                       android:id="@+id/texto_7"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/lirios"
+                       android:gravity="center"
+                       android:fontFamily="@font/adamina"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card8"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen8"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/menta"
+                       android:src="@drawable/menta" />
+
+                   <TextView
+                       android:id="@+id/texto_8"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/menta"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card9"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen9"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/peonias"
+                       android:src="@drawable/peonias2" />
+
+                   <TextView
+                       android:id="@+id/texto_9"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/peonias"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card10"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen10"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/romero"
+                       android:src="@drawable/romero" />
+
+                   <TextView
+                       android:id="@+id/texto_10"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/romero"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card11"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen11"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/tomillo"
+                       android:src="@drawable/tomillo3" />
+
+                   <TextView
+                       android:id="@+id/texto_11"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/tomillo"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card12"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:cardMaxElevation="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="5dp"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?attr/selectableItemBackground">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="18dp"
+                   android:layout_gravity="center"
+                   android:orientation="vertical"
+                   android:gravity="center_horizontal">
+
+                   <ImageView
+                       android:id="@+id/imagen12"
+                       android:layout_width="150dp"
+                       android:layout_height="100dp"
+                       android:contentDescription="@string/tulipanes"
+                       android:src="@drawable/tulipanes" />
+
+                   <TextView
+                       android:id="@+id/texto_12"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/tulipanes"
+                       android:fontFamily="@font/adamina"
+                       android:gravity="center"
+                       android:layout_marginTop="5dp"
+                       android:textColor="@color/green_3"
+                       android:textStyle="bold"/>
+
+
+               </LinearLayout>
+
+
+           </androidx.cardview.widget.CardView>
+
+
+       </GridLayout>
+
+
+   </LinearLayout>
+
+
+</ScrollView>

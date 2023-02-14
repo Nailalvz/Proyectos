@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CodigoQR</string>
+    <string name="mas">mas</string>
+    <string name="leerqr">Escanear</string>
+    <string name="generarqr">Generar QR</string>
+    <string name="generarcb">Generar UPC</string>
+    <string name="foto">portada</string>
+    <string name="compartir"></string>
+    <string name="imagen">imagen</string>
+    <string name="mensaje">Introduzca el mensaje</string>
+    <string name="generar">Generar</string>
+    <string name="mensajeCD">Introduzca los 11 dígitos</string>
+    <string name="titulo">ScanCode</string>
+
+</resources>

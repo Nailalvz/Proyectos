@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MostrarCardView"
+    android:background="#FEFFF7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/back"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/back"
+                app:fabSize="mini"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.088"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="ImageContrastCheck" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/glicina"
+            android:contentDescription="@string/glicina"/>
+
+        <TextView
+            android:id="@+id/tituloPlanta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/glicina"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="#689F38"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck"/>
+
+        <!-- Título floración -->
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/floracion_glicina"
+            android:textColor="@color/green_9"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+
+        <!-- Floración riego -->
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:text="@string/riego_glicina"
+            android:textColor="@color/green_9"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"/>
+
+        <!-- titulo caracteristicas -->
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/titulo_caract_glicina"
+            android:textSize="15sp"
+            android:textColor="@color/green_7"
+            android:textStyle="bold"/>
+
+        <!-- parrafo 1 caracteristicas -->
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/c_p_1_glicina"
+            android:textColor="@color/black"/>
+
+        <!-- Título cultivo -->
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/titulo_cultivo_glicina"
+            android:textSize="15sp"
+            android:textColor="@color/green_7"
+            android:textStyle="bold"/>
+
+        <!-- Parrafo 1 -->
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:text="@string/cul_p_1_glicina"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"/>
+
+        <!-- Parrafo 2 -->
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/cul_p_2_glicina"
+            android:textColor="@color/black" />
+
+        <!-- titulo Plagas -->
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:paddingBottom="15dp"
+            android:text="@string/titulo_plagas_glicina"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingTop="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/green_7"
+            android:textStyle="bold"/>
+
+            <!-- parrafo 1 -->
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:text="@string/cp_p_1_glicina"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"/>
+
+            <!-- parrafo 2 -->
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:text="@string/cp_p_2_glicina"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            android:paddingBottom="20dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

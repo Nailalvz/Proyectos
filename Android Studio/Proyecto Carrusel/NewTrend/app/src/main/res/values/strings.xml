@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Carrusel</string>
+    <string name="entrar">Entrar</string>
+    <string name="fondo">Fondo</string>
+    <string name="flechaderecha">Flecha derecha</string>
+    <string name="flechaizquierda">Flecha izquierda</string>
+    <string name="foto">fotografia</string>
+</resources>

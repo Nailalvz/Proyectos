@@ -1,0 +1,1 @@
+Proyecto de Android Studio realizado en Java para escanear y generar tanto códigos QR como EAN UPC.

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    android:background="@color/grey_fondo">
+
+
+    <ImageView
+        android:id="@+id/fondo2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imagen"
+        android:scaleType="fitXY"
+        android:src="@drawable/fondo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imagen"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:autoLink="web"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/mensaje"
+        android:inputType="text"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <EditText
+        android:id="@+id/editTextCB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="@string/mensajeCD"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <Button
+        android:id="@+id/generar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579"
+        tools:ignore="DuplicateClickableBoundsCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/generarCD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/compartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/compartir"
+        android:src="@drawable/share"
+        android:text="@string/compartir"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/floatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/mas"
+        app:fab_addButtonPlusIconColor="@color/black"
+        app:fab_addButtonColorNormal="@color/purple"
+        app:fab_labelStyle="@style/Etiquetas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="ImageContrastCheck">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/accion_escanear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_icon="@drawable/escanear"
+            app:fab_size="mini"
+            app:fab_title="@string/leerqr" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/accion_generarQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_icon="@drawable/leerqr"
+            app:fab_size="mini"
+            app:fab_title="@string/generarqr" />
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/accion_generarCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_icon="@drawable/codigodebarras"
+            app:fab_size="mini"
+            app:fab_title="@string/generarcb" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

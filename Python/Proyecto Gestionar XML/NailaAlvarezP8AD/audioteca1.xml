@@ -1,0 +1,80 @@
+<audioteca>
+    <disco id="1" nombre="Highway to Hell" year="1979" artista="AC/DC" genero="Hard Rock">
+        <cancion id_disco="1" id="1" titulo="Highway to Hell" duracion="3:29" />
+        <cancion id_disco="1" id="2" titulo="Girls Got Rhythm" duracion="3:24" />
+        <cancion id_disco="1" id="3" titulo="Walk All Over You" duracion="5:09" />
+        <cancion id_disco="1" id="4" titulo="Touch Too Much" duracion="4:26" />
+        
+    </disco>
+
+    <disco id="2" nombre="Back in Black" year="1980" artista="AC/DC" genero="Hard Rock">
+        <cancion id_disco="2" id="1" titulo="Hell Bells" duracion="5:12" />
+        <cancion id_disco="2" id="2" titulo="Shoot to Thrill" duracion="5:18" />
+        <cancion id_disco="2" id="3" titulo="What Do You Do For Money Honey" duracion="3:35" />
+        <cancion id_disco="2" id="4" titulo="Givin The Dog A Bone" duracion="3:32" />
+    </disco>
+
+    <disco id="3" nombre="Mercury Act 2" year="2022" artista="Imagine Dragons" genero="Rock Indie">
+        <cancion id_disco="3" id="1" titulo="Enemy" duracion="2:54" />
+        <cancion id_disco="3" id="2" titulo="Lonely" duracion="3:24" />
+        <cancion id_disco="3" id="3" titulo="Monday" duracion="5:09" />
+        <cancion id_disco="3" id="4" titulo="Giants" duracion="4:26" />
+        
+    </disco>
+
+    <disco id="4" nombre="Night Visions" year="2012" artista="Imagine Dragons" genero="Rock">
+        <cancion id_disco="4" id="1" titulo="Radioactive" duracion="5:23" />
+        <cancion id_disco="4" id="2" titulo="It's Time" duracion="2:18" />
+        <cancion id_disco="4" id="3" titulo="On Top Of The World" duracion="3:35" />
+        <cancion id_disco="4" id="4" titulo="Hear Me" duracion="4:32" />
+    </disco>
+
+    <disco id="5" nombre="The Eminem Show" year="2002" artista="Eminem" genero="Hip Hop">
+        <cancion id_disco="5" id="1" titulo="Business" duracion="4:28" />
+        <cancion id_disco="5" id="2" titulo="Square Dance" duracion="5:24" />
+        <cancion id_disco="5" id="3" titulo="Soldier" duracion="2:10" />
+        <cancion id_disco="5" id="4" titulo="White America" duracion="4:26" />
+        
+    </disco>
+
+    <disco id="6" nombre="The Marshall Mathers LP" year="2000" artista="Eminem" genero="Hip Hop">
+        <cancion id_disco="6" id="1" titulo="Kill You" duracion="4:24" />
+        <cancion id_disco="6" id="2" titulo="Stan" duracion="6:44" />
+        <cancion id_disco="6" id="3" titulo="Who Knew" duracion="3:47" />
+        <cancion id_disco="6" id="4" titulo="The Way I Am" duracion="4:50" />
+        <cancion id_disco="6" id="5" titulo="The Real Slim Shady" duracion="4:44" />
+        <cancion id_disco="6" id="6" titulo="Remember Me?" duracion="3:38" />
+    </disco>
+
+    <disco id="7" nombre="Un verano sin ti" year="2022" artista="Bad Bunny" genero="Regueton">
+        <cancion id_disco="7" id="1" titulo="Moscow Mule" duracion="4:05" />
+        <cancion id_disco="7" id="2" titulo="Me porto bonito" duracion="2:58" />
+        <cancion id_disco="7" id="3" titulo="Titi me pregunto" duracion="4:03" />
+        <cancion id_disco="7" id="4" titulo="Ojitos lindos" duracion="4:18" />
+        
+    </disco>
+
+    <disco id="8" nombre="El ultimo tour del mundo" year="2020" artista="Bad Bunny" genero="Trap">
+        <cancion id_disco="8" id="1" titulo="Te mudaste" duracion="2:10" />
+        <cancion id_disco="8" id="2" titulo="Maldita pobreza" duracion="3:33" />
+        <cancion id_disco="8" id="3" titulo="La noche de anoche" duracion="3:23" />
+        <cancion id_disco="8" id="4" titulo="Te deseo lo mejor" duracion="2:19" />
+        <cancion id_disco="8" id="5" titulo="Antes que se acabe" duracion="3:41" />
+    </disco>
+
+    <disco id="9" nombre="Hybrid Theory" year="2000" artista="Linkin Park" genero="Metal alternativo">
+        <cancion id_disco="9" id="1" titulo="Papercut" duracion="3:04" />
+        <cancion id_disco="9" id="2" titulo="One Step Closer" duracion="2:35" />
+        <cancion id_disco="9" id="3" titulo="With You" duracion="3:23" />
+        <cancion id_disco="9" id="4" titulo="Points of Authority" duracion="3:20" />
+        
+    </disco>
+
+    <disco id="10" nombre="That's the Spirit" year="2015" artista=" Bring Me the Horizon" genero="Rock alternativo">
+        <cancion id_disco="10" id="1" titulo="Doomed" duracion="2:10" />
+        <cancion id_disco="10" id="2" titulo="Happy Song" duracion="3:59" />
+        <cancion id_disco="10" id="3" titulo="True Friends" duracion="3:52" />
+        <cancion id_disco="10" id="4" titulo="Drown" duracion="3:42" />
+        <cancion id_disco="10" id="5" titulo="Run" duracion="3:42" />
+    </disco>
+</audioteca>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addActivity"
+    android:background="#FEFFF7"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/back"
+                android:paddingStart="20dp"
+                android:paddingEnd="100dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/close"
+                app:fabSize="mini"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.088"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="ImageContrastCheck" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/aceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/aceptar"
+                android:paddingStart="20dp"
+                android:paddingEnd="100dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/done"
+                app:fabSize="mini"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.946"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="ImageContrastCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <TextView
+            android:id="@+id/add_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/green_9"
+            android:textStyle="bold"
+            android:fontFamily="@font/adamina"
+            android:layout_marginBottom="10dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:rowCount="1"
+            android:columnCount="3">
+
+            <ImageView
+                android:id="@+id/icono_planta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/planta"
+                android:contentDescription="@string/planta"
+                />
+
+            <TextView
+                android:id="@+id/planta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_planta"
+                android:textColor="@color/green_7"
+                android:textSize="15sp"
+                android:layout_marginStart="15dp"
+                android:paddingBottom="10dp"
+                android:fontFamily="@font/adamina"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/spinner_planta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/plantas"
+                android:minHeight="50dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/icono_riego"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/regadera"
+                android:contentDescription="@string/regadera"/>
+
+            <TextView
+                android:id="@+id/tipo_riego"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riego"
+                android:textColor="@color/green_7"
+                android:textSize="15sp"
+                android:paddingBottom="10dp"
+                android:fontFamily="@font/adamina"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"/>
+
+
+            <Spinner
+                android:id="@+id/spinner_riego"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/riego_fre"
+                android:minHeight="50dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/icono_ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ubicacion"
+                android:contentDescription="@string/ubicacion"/>
+
+            <TextView
+                android:id="@+id/ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ubicacion"
+                android:textColor="@color/green_7"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/ubicacion"
+                android:minHeight="50dp"
+                android:paddingBottom="10dp"/>
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/necesita"
+            android:textColor="@color/green_7"
+            android:textSize="15sp"
+            android:fontFamily="@font/adamina"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/texto_sol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sol"
+                android:textStyle="bold"
+                android:textColor="@color/green_7"
+                android:textSize="15sp"
+                android:fontFamily="@font/adamina"
+                android:layout_gravity="center"
+                android:layout_marginEnd="6dp"
+                />
+
+            <ImageView
+                android:id="@+id/sol_icono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/dom"
+                tools:ignore="ImageContrastCheck"
+                android:contentDescription="@string/sol"/>
+
+
+            <CheckBox
+                android:id="@+id/sol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                android:layout_marginEnd="15dp"
+                android:outlineAmbientShadowColor="@color/green_9"
+                tools:targetApi="p" />
+
+            <TextView
+                android:id="@+id/texto_sombra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sombra"
+                android:textSize="15sp"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/green_7"
+                android:layout_gravity="center"
+                android:layout_marginEnd="4dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/sombra_icono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sombra"
+                android:contentDescription="@string/sombra"/>
+
+            <CheckBox
+                android:id="@+id/sombra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imagen_seleccionada"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/seleccionar1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/imagen"/>
+
+        <Button
+            android:id="@+id/seleccionar"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="@string/seleccionar"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/green_9"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
