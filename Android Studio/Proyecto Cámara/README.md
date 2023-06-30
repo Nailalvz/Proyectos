@@ -1,6 +1,7 @@
 Proyecto de Android Studio realizado en Java.
 
 Requisitos a realizar en el proyecto:
+
 	- Acceder a la cámara del smartphone.
 	- Capturar una fotografía.
 	- Mostrar esa fotografía.
