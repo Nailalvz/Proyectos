@@ -1,6 +1,6 @@
 Proyecto desarrollado en Visual Studio Code con Python.
 
-En este proyecto se realizó un programa con interfaz gráfica. Se utilizó la bibliote de Python "xml.element.tree", entre otras,
+En este proyecto se realizó un programa con interfaz gráfica. Se utilizó la biblioteca de Python "xml.element.tree", entre otras,
 para realizar la gestión de diferentes audiotecas en archivos XML.
 
 Se daba una estructura de cada XML:
